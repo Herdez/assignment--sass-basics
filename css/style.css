@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  /*outline: 1px solid red;*/ }
+
+body {
+  background-color: #F2F3F4; }
+
+.form {
+  margin: 0 auto;
+  width: 350px;
+  height: 490px;
+  outline: 1px solid #E6E6E6;
+  background-color: white; }
+  .form__logo {
+    width: 175px;
+    height: 51px;
+    outline-color: blue;
+    position: relative;
+    left: 25%;
+    top: 30px; }
+  .form__button-facebook {
+    width: 270px;
+    height: 35px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+    background-color: #3897f0;
+    border-radius: 5px; }
+  .form i {
+    position: relative;
+    bottom: 5px;
+    right: 55px;
+    background-color: white;
+    padding: 3px 2px 0px 10px;
+    margin: 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #3897f0;
+    outline-color: 1px solid #3897f0; }
+  .form__text-facebook {
+    position: relative;
+    bottom: 47px;
+    font-size: 15px;
+    left: 7%; }
+  .form__line {
+    color: #999;
+    position: relative;
+    top: 55px;
+    width: 270px; }
+  .form__boolean {
+    color: #999;
+    font-size: 11px;
+    position: relative;
+    top: 30px;
+    background-color: white;
+    width: 30px;
+    padding: 5px 7px;
+    left: 45%;
+    font-weight: normal;
+    font-family: verdana; }
+  .form__input {
+    position: relative;
+    width: 270px;
+    top: 30px;
+    border: 1px solid #EFEFEF;
+    background-color: #FAFAFA;
+    height: 36px;
+    margin-bottom: 5px;
+    left: 40px; }
+  .form__button-signup {
+    width: 270px;
+    height: 35px;
+    position: relative;
+    color: white;
+    background-color: #3897f0;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 45px;
+    left: 40px; }
+  .form__footer {
+    color: #999;
+    font-family: verdana;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px; }
+  .form__footer--terms {
+    color: #999;
+    font-family: verdana;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px; }
+
+.footer {
+  outline: 1px solid #E6E6E6;
+  background-color: white;
+  width: 350px;
+  height: 70px;
+  position: relative;
+  top: 45px; }
+  .footer p {
+    font-family: verdana;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px; }
+  .footer a {
+    color: #3897f0;
+    text-decoration: none; }
